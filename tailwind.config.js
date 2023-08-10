@@ -7,10 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        // from https://github.com/joshdick/onedark.vim/blob/main/colors/onedark.vim
+        onedark: {
+          black: "#282c34",
+          white: "#abb2bf",
+          "light-red": "#e06c75",
+          "dark-red": "#be5046",
+          green: "#98c379",
+          "light-yellow": "#e5c07b",
+          "dark-yellow": "#d19a66",
+          blue: "#61afef",
+          magenta: "#c678dd",
+          cyan: "#56b6c2",
+          "gutter-grey": "#4b5263",
+          "comment-grey": "#5c6370",
+        },
       },
     },
   },
