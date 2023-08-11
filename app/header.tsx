@@ -28,7 +28,7 @@ export default function Header() {
 
         <nav className="flex">
           <div
-            className={`w-11 text-onedark-white mx-4 self-center ${
+            className={`w-11 text-onedark-white mx-4 self-center cursor-pointer ${
               menuActive ? "hidden" : ""
             } sm:hidden`}
             onClick={() => setMenuActive(true)}
@@ -44,7 +44,7 @@ export default function Header() {
             <ul className="flex flex-col sm:flex-row sm:h-full sm:items-center">
               <li className="flex justify-end items-center h-20 mx-4 sm:hidden">
                 <div
-                  className="w-11 text-onedark-white"
+                  className="w-11 text-onedark-white cursor-pointer"
                   onClick={() => setMenuActive(false)}
                 >
                   <XMark />
