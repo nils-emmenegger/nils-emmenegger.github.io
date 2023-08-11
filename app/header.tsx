@@ -42,7 +42,7 @@ export default function Header() {
             } sm:block`}
           >
             <ul className="flex flex-col text-onedark-blue sm:flex-row sm:h-full sm:items-center">
-              <li className="flex justify-end items-center w-auto h-20 mx-4 sm:hidden">
+              <li className="flex justify-end items-center h-20 mx-4 sm:hidden">
                 <div
                   className="w-11 text-onedark-white"
                   onClick={() => setMenuActive(false)}
