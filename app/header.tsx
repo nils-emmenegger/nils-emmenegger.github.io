@@ -41,7 +41,7 @@ export default function Header() {
               !menuActive ? "hidden" : ""
             } sm:block`}
           >
-            <ul className="flex flex-col text-onedark-blue sm:flex-row sm:h-full sm:items-center">
+            <ul className="flex flex-col sm:flex-row sm:h-full sm:items-center">
               <li className="flex justify-end items-center h-20 mx-4 sm:hidden">
                 <div
                   className="w-11 text-onedark-white"
@@ -54,7 +54,7 @@ export default function Header() {
               {links.map(([name, href]) => (
                 <li
                   key={name}
-                  className="pl-6 pr-16 py-6 bg-black/60 sm:bg-transparent sm:px-8"
+                  className="pl-6 pr-32 py-5 text-onedark-blue bg-black/60 sm:bg-transparent sm:px-8"
                 >
                   <Link href={href}>{name}</Link>
                 </li>
