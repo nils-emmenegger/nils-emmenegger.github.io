@@ -56,7 +56,9 @@ export default function Header() {
                   key={name}
                   className="pl-6 pr-32 py-5 text-onedark-blue bg-black/60 sm:bg-transparent sm:px-8"
                 >
-                  <Link href={href}>{name}</Link>
+                  <Link href={href} onClick={() => setMenuActive(false)}>
+                    {name}
+                  </Link>
                 </li>
               ))}
             </ul>
