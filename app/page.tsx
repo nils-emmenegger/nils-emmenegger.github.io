@@ -23,22 +23,22 @@ export default function Home() {
       </p>
 
       <p className="mb-4 text-base text-onedark-magenta">
-        In my spare time, you might find me rock climbing, cooking,&nbsp;
+        In my spare time, you might find me rock climbing, cooking,{" "}
         <ExtLink href="https://dmoj.ca/user/Nils_Emmenegger">
           competitively programming
         </ExtLink>
-        , working on side projects, or playing the VR rhythm game&nbsp;
+        , working on side projects, or playing the VR rhythm game{" "}
         <ExtLink href="https://beatsaber.com/">Beat Saber</ExtLink>.
       </p>
 
       <h2 className="mb-4 text-onedark-green text-xl">Other stuff</h2>
 
       <p className="text-base text-onedark-magenta">
-        The colour scheme of this website is loosely based on&nbsp;
+        The colour scheme of this website is loosely based on{" "}
         <ExtLink href="https://github.com/joshdick/onedark.vim">
           onedark.vim
         </ExtLink>
-        , one of my favourite colour schemes for the&nbsp;
+        , one of my favourite colour schemes for the{" "}
         <ExtLink href="https://neovim.io/">Neovim text editor.</ExtLink>
       </p>
     </div>
