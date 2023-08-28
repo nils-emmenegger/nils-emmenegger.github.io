@@ -1,3 +1,5 @@
+import ExtLink from "@/components/utils/ExtLink";
+
 export default function Home() {
   return (
     <div className="mx-auto max-w-3xl p-4">
@@ -10,16 +12,8 @@ export default function Home() {
       <p className="mb-4 text-base text-onedark-magenta">
         I&apos;m passionate about all things technology. More recently,
         I&apos;ve taken an interest in topics inlcuding but not limited to
-        CI/CD,&nbsp;
-        <a
-          href="https://www.rust-lang.org/"
-          className="text-onedark-blue"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Rust
-        </a>
-        , compilers, designing asynchronous runtimes, and programming language
+        CI/CD, <ExtLink href="https://www.rust-lang.org/">Rust</ExtLink>,
+        compilers, designing asynchronous runtimes, and programming language
         design.
       </p>
 
@@ -30,47 +24,22 @@ export default function Home() {
 
       <p className="mb-4 text-base text-onedark-magenta">
         In my spare time, you might find me rock climbing, cooking,&nbsp;
-        <a
-          href="https://dmoj.ca/user/Nils_Emmenegger"
-          className="text-onedark-blue"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <ExtLink href="https://dmoj.ca/user/Nils_Emmenegger">
           competitively programming
-        </a>
-        , working on side projects, or playing the VR rhythm game{" "}
-        <a
-          href="https://beatsaber.com/"
-          className="text-onedark-blue"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Beat Saber
-        </a>
-        .
+        </ExtLink>
+        , working on side projects, or playing the VR rhythm game&nbsp;
+        <ExtLink href="https://beatsaber.com/">Beat Saber</ExtLink>.
       </p>
 
       <h2 className="mb-4 text-onedark-green text-xl">Other stuff</h2>
 
       <p className="text-base text-onedark-magenta">
         The colour scheme of this website is loosely based on&nbsp;
-        <a
-          href="https://github.com/joshdick/onedark.vim"
-          className="text-onedark-blue"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <ExtLink href="https://github.com/joshdick/onedark.vim">
           onedark.vim
-        </a>
+        </ExtLink>
         , one of my favourite colour schemes for the&nbsp;
-        <a
-          href="https://neovim.io/"
-          className="text-onedark-blue"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Neovim text editor.
-        </a>
+        <ExtLink href="https://neovim.io/">Neovim text editor.</ExtLink>
       </p>
     </div>
   );
