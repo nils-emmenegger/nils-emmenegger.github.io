@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="mb-4 text-onedark-light-yellow text-3xl">Hi!</h1>
       <p className="mb-4 text-base text-onedark-magenta">
         My name&apos;s Nils Emmenegger. I&apos;m currently studying computer
-        science student at the University of Waterloo, class of 2027.
+        science at the University of Waterloo, class of 2027.
       </p>
 
       <p className="mb-4 text-base text-onedark-magenta">
