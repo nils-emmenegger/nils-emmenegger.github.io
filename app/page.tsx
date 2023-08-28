@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-3xl p-4">
       <h1 className="mb-4 text-onedark-light-yellow text-3xl">Hi!</h1>
+
       <p className="mb-4 text-base text-onedark-magenta">
         My name is Nils Emmenegger. I&apos;m currently studying computer science
         at the University of Waterloo, class of 2027.
