@@ -40,7 +40,7 @@ export default function Home() {
           onedark.vim
         </ExtLink>
         , one of my favourite colour schemes for the{" "}
-        <ExtLink href="https://neovim.io/">Neovim text editor.</ExtLink>
+        <ExtLink href="https://neovim.io/">Neovim text editor</ExtLink>.
       </p>
     </div>
   );
