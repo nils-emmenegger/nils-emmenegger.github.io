@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function Header() {
   const [menuActive, setMenuActive] = useState(false);
 
-  const links = [
+  const links: [string, string][] = [
     ["Home", "/"],
     ["Projects", "/projects"],
     ["Contact", "/contact"],
