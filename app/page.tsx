@@ -12,10 +12,9 @@ export default function Home() {
 
       <p className="mb-4 text-base text-onedark-magenta">
         I&apos;m passionate about all things technology. More recently,
-        I&apos;ve taken an interest in topics inlcuding but not limited to
-        CI/CD, <ExtLink href="https://www.rust-lang.org/">Rust</ExtLink>,
-        compilers, designing asynchronous runtimes, and programming language
-        design.
+        I&apos;ve taken an interest in topics inlcuding but not limited to{" "}
+        <ExtLink href="https://www.rust-lang.org/">Rust</ExtLink>, compilers,
+        designing asynchronous runtimes, and programming language design.
       </p>
 
       <p className="mb-4 text-base text-onedark-magenta">
