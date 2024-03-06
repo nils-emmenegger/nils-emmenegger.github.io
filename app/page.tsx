@@ -28,7 +28,10 @@ export default function Home() {
           competitively programming
         </ExtLink>
         , working on side projects, or playing the VR rhythm game{" "}
-        <ExtLink href="https://beatsaber.com/">Beat Saber</ExtLink>.
+        <ExtLink href="https://scoresaber.com/u/76561198228321708">
+          Beat Saber
+        </ExtLink>
+        .
       </p>
 
       <h2 className="mb-4 text-onedark-green text-xl">Other stuff</h2>
