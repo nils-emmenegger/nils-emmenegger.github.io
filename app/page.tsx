@@ -1,4 +1,5 @@
 import ExtLink from "@/components/utils/ExtLink";
+import LCDaily from "@/components/utils/LCDaily";
 
 export default function Home() {
   return (
@@ -44,6 +45,8 @@ export default function Home() {
         , one of my favourite colour schemes for the{" "}
         <ExtLink href="https://neovim.io/">Neovim text editor</ExtLink>.
       </p>
+
+      <LCDaily />
     </div>
   );
 }
