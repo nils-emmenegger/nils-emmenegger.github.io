@@ -37,7 +37,7 @@ export default function Home() {
 
       <h2 className="mb-4 text-onedark-green text-xl">Other stuff</h2>
 
-      <p className="text-base text-onedark-magenta">
+      <p className="mb-4 text-base text-onedark-magenta">
         The colour scheme of this website is loosely based on{" "}
         <ExtLink href="https://github.com/joshdick/onedark.vim">
           onedark.vim
