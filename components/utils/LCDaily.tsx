@@ -27,7 +27,7 @@ export default function LCDaily() {
 
   return (
     <p className="text-base text-onedark-magenta">
-      My current LeetCode Daily Challenge streak is:{" "}
+      My current LeetCode Daily streak is:{" "}
       {lcStreak === undefined ? <Spinner /> : lcStreak}.
     </p>
   );
