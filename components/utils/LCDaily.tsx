@@ -25,8 +25,8 @@ export default function LCDaily() {
         if (res.ok) return res.text();
         else throw new Error("Failed to fetch LeetCode Daily streak");
       })
-      .then((streak) => setLcStreak(streak))
-      .catch((error) => console.error(error));
+      .then(setLcStreak)
+      .catch(console.error);
   }, []);
 
   return (
