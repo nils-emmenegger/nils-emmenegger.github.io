@@ -21,8 +21,12 @@ export default function LCDaily() {
   const [lcStreak, setLcStreak] = useState<string>();
   useEffect(() => {
     fetch("https://lc-worker.nilsemmenegger.com/get_lc_daily_streak")
-      .then((res) => res.text())
-      .then((streak) => setLcStreak(streak));
+      .then((res) => {
+        if (res.ok) return res.text();
+        else throw new Error("Failed to fetch LeetCode Daily streak");
+      })
+      .then((streak) => setLcStreak(streak))
+      .catch((error) => console.error(error));
   }, []);
 
   return (
